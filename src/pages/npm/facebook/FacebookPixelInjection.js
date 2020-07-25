@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Prism from "prismjs";
 import "prismjs/themes/prism-tomorrow.css";
 import { ExternalLink } from "react-external-link";
-import github from "../../img/github.png";
+import github from "../../../img/github.png";
 
 class FacebookPixelInjection extends Component{
     constructor(props) {

@@ -52,14 +52,14 @@ class HomePage extends Component{
                             <div className="mt-4">
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item">
-                                        <Link to={'/tools/facebook-pixel-injection'}>
+                                        <Link to={'/tools/facebook-pixel-injection/0.1.0'}>
                                             Facebook Pixel Injection
                                         </Link>
                                     </li>
                                     <li className="list-group-item">
-                                        <ExternalLink href="https://www.npmjs.com/package/placedv-cm">
+                                        <Link to={'/tools/google-cm-pixel-injection/0.2.5'}>
                                             Google CM Floodlight Tag Injection
-                                        </ExternalLink>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

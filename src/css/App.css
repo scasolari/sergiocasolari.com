@@ -3,6 +3,7 @@ h3{font-size: 20px}
 a{color: #ffd560; text-decoration: none}
 a:hover{color: #ffd560; text-decoration: underline}
 thead tr th{}
+.ol-menu ol li{list-style-type: circle;}
 .bg-light {background-color: transparent!important}
 .container{width: 600px}
 .navbar-light .navbar-nav .nav-link {color: #6c757d; padding-left: 0; padding-right: 20px}
@@ -10,13 +11,14 @@ thead tr th{}
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {color: #ffd560;}
 .nav-link:first-child{padding-left: 0}
 .jumbotron{background: #0e141b; border-bottom: 1px solid #d1ecf117;}
-.alert{border-radius: 0; border: 0; margin: 0}
 .list-group-item {padding: 5px 0;border: 0 solid #d1ecf117; background: transparent;}
 .breadcrumb {padding: 0; background-color: #0f141c; border-radius: 0;}
 .table {color: #ffffff;}
 .table td, .table th {border-top: 0 solid #dee2e6; padding-left: 0;}
 .table tbody tr{border-top: 1px solid #d1ecf117;}
 .table thead th {border-bottom: 2px solid #d1ecf117; padding-left: 0;}
+.alert p{margin:0}
+.yellow{color: #ffd560}
 pre {color: #ffffff; background: #20282f; padding: 10px 20px; border-radius: 6px;}
 :not(pre) > code[class*="language-"], pre[class*="language-"] {background: #21292f!important; font-size: 14px!important; margin-bottom: 15px!important;}
 .hide-element{display: none; transition-duration: 0.3s}
