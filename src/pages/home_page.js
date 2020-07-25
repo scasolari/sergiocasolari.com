@@ -48,39 +48,7 @@ class HomePage extends Component{
                 </div>
                 <div className="container mt-5">
                     <div className="row">
-                        <div className="col-md-6">
-                            <p>Trusted by a lot of companies</p>
-                            <div className="mt-4">
-                                <ul className="list-group list-group-flush">
-                                    <li className="list-group-item">
-                                        <ExternalLink href="http://www.theoutplay.com/">
-                                            TheOutplay S.r.l
-                                        </ExternalLink>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <ExternalLink href="https://myntelligence.com/">
-                                            Myntelligence S.r.l
-                                        </ExternalLink>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <ExternalLink href="https://www.goalscout.com/">
-                                            Goalscout.com
-                                        </ExternalLink>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <ExternalLink href="https://www.studiofasolini.it/">
-                                            Studio Lorena Fasolini Architetti
-                                        </ExternalLink>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <ExternalLink href="https://burgez.com/">
-                                            Burgez
-                                        </ExternalLink>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
+                        <div className="col-md-12">
                             <p>Latest developed tools</p>
                             <div className="mt-4">
                                 <ul className="list-group list-group-flush">
