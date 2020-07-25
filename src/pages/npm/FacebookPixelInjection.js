@@ -51,6 +51,9 @@ export default App;`
                     <div className="container mt-4 d-flex justify-content-between">
                         <div>
                             <h3>{this.state.jumbotron_title}</h3>
+                            <span className="badge badge-dark mr-2">#react</span>
+                            <span className="badge badge-dark mr-2">#facebook</span>
+                            <span className="badge badge-dark mr-2">#injection</span>
                         </div>
                         <div>
                             <ExternalLink href="https://github.com/scasolari/facebook-pixel-event-injection">
