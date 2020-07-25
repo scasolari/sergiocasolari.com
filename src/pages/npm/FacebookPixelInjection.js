@@ -42,7 +42,7 @@ export default App;`
                         <nav aria-label="breadcrumb">
                             <ol className="breadcrumb">
                                 <li className="breadcrumb-item">
-                                    <Link to={'/'}>Welcome</Link>
+                                    <Link to={'/welcome'}>Welcome</Link>
                                 </li>
                                 <li className="breadcrumb-item active" aria-current="page">Facebook Pixel Injection</li>
                             </ol>
