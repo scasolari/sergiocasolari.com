@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { Link } from "react-router-dom";
 import Prism from "prismjs";
 import "prismjs/themes/prism-tomorrow.css";
+import { ExternalLink } from "react-external-link";
+import github from "../../../../img/github.png";
 
 class GoogleCMFloodlightTagInjection024 extends Component{
     constructor(props) {
@@ -34,6 +36,11 @@ class GoogleCMFloodlightTagInjection024 extends Component{
                             <span className="badge badge-dark mr-2">#react</span>
                             <span className="badge badge-dark mr-2">#google-cm</span>
                             <span className="badge badge-dark mr-2">#injection</span>
+                        </div>
+                        <div>
+                            <ExternalLink href="https://github.com/scasolari/google-fls-tag-injection">
+                                <img src={github} height={'20px'} alt={'Github'}/>
+                            </ExternalLink>
                         </div>
                     </div>
                 </div>
