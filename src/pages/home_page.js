@@ -3,7 +3,6 @@ import { ExternalLink } from 'react-external-link';
 import github from '../img/github.png';
 import linkedin from '../img/linkedin.png';
 import twitter from '../img/twitter.png';
-import sergiocasolari from '../img/sergiocasolari.jpeg';
 import { Link } from "react-router-dom";
 
 class HomePage extends Component{

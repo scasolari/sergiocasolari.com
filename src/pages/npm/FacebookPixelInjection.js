@@ -9,7 +9,6 @@ class FacebookPixelInjection extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            jumbotron: 'border-bottom-jumbotron',
             jumbotron_title: 'Facebook Pixel Injection',
             jumbotron_message: 'Simple Facebook Pixel Injection for React',
             code_4: `import React, {Component} from 'react';
@@ -32,23 +31,14 @@ export default App;`
         };
     }
     componentDidMount() {
-        window.addEventListener('scroll', () => {
-            let jumbotron = 'border-bottom-jumbotron';
-            let breadcrumb = '';
-            if(window.scrollY > 10){
-                jumbotron = 'jumbotron-resize';
-                breadcrumb = 'hide-element';
-            }
-            this.setState({ jumbotron, breadcrumb });
-        });
         Prism.highlightAll();
     }
 
     render() {
         return(
-            <div className="mb-5 pb-5">
-                <div id="jumbotron" className={`jumbotron jumbotron-fluid pl-0 sticky-top ${this.state.jumbotron}`}>
-                    <div className={`container mb-4 ${this.state.breadcrumb}`}>
+            <div className="mb-3 pb-5">
+                <div id="jumbotron" className="jumbotron jumbotron-fluid pl-0">
+                    <div className="container mb-4">
                         <nav aria-label="breadcrumb">
                             <ol className="breadcrumb">
                                 <li className="breadcrumb-item">
